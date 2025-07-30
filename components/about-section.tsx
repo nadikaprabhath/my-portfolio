@@ -29,7 +29,7 @@ export default function AboutSection() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-            About <span className="gradient-text">Nadika Prabhath</span>
+            About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-[#8B949E] text-lg max-w-2xl mx-auto">
             Passionate full-stack developer with 5+ years of experience building modern web applications and solving

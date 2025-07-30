@@ -49,10 +49,10 @@ export default function ExperienceSection() {
   const education = [
     {
       degree: "Bachelor of Science in Computer Science",
-      school: "University of Technology",
-      location: "California, USA",
-      period: "2015 - 2019",
-      description: "Graduated Magna Cum Laude with focus on Software Engineering and Web Development.",
+      school: "Sri Lanka Institute of Information Technology (SLIIT)",
+      location: "Malabe, Sri Lanka",
+      period: "2019 - 2023",
+      description: "Graduated from SLIIT with focus on Software Engineering and Web Development.",
     },
   ]
 

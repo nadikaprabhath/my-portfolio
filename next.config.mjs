@@ -1,14 +1,14 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  images: {
-    unoptimized: true,
-  },
-}
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   eslint: {
+//     ignoreDuringBuilds: false,
+//   },
+//   typescript: {
+//     ignoreBuildErrors: false,
+//   },
+//   images: {
+//     unoptimized: false,
+//   },
+// }
 
-export default nextConfig
+// export default nextConfig

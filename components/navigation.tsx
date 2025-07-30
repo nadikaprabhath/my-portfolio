@@ -61,7 +61,7 @@ export default function Navigation() {
           {/* Logo */}
           <div className="flex-shrink-0 group">
             <span className="text-2xl font-bold bg-gradient-to-r from-[#58A6FF] to-[#A855F7] bg-clip-text text-transparent group-hover:scale-110 transition-transform duration-300 cursor-pointer">
-              {"<nd/>"}
+              {"<np/>"}
             </span>
           </div>
 
