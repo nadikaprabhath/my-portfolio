@@ -89,13 +89,15 @@ export default function Navigation() {
           {/* Social Links */}
           <div className="hidden md:flex items-center space-x-4">
             {[
-              { icon: Github, href: "https://github.com" },
-              { icon: Linkedin, href: "https://linkedin.com" },
-              { icon: Twitter, href: "https://twitter.com" },
+              { icon: Github, href: "https://github.com/nadikaprabhath", label: "GitHub - Nadika Prabhath" },
+              { icon: Linkedin, href: "https://linkedin.com/in/nadikaprabhath", label: "LinkedIn - Nadika Prabhath" },
+              { icon: Twitter, href: "https://twitter.com/nadikaprabhath", label: "twitter - Nadika Prabhath" },
             ].map((social, index) => (
               <a
                 key={index}
                 href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2 text-[#8B949E] hover:text-[#58A6FF] transition-all duration-300 transform hover:scale-110 hover:-translate-y-1"
               >
                 <social.icon size={20} />

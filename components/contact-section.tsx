@@ -77,9 +77,9 @@ export default function ContactSection() {
   ]
 
   const socialLinks = [
-    { icon: <Github size={24} />, href: "https://github.com", label: "GitHub" },
-    { icon: <Linkedin size={24} />, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: <Twitter size={24} />, href: "https://twitter.com", label: "Twitter" },
+    { icon: <Github size={24} />, href: "https://github.com/nadikaprabhath", label: "GitHub - Nadika Prabhath" },
+    { icon: <Linkedin size={24} />, href: "https://linkedin.com/in/nadikaprabhath", label: "LinkedIn - Nadika Prabhath" },
+    { icon: <Twitter size={24} />, href: "https://twitter.com/nadikaprabhath", label: "twitter - Nadika Prabhath" },
   ]
 
   return (

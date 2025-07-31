@@ -64,16 +64,15 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Nadika Prabhath - Full Stack Developer",
     description: "Professional Full Stack Developer specializing in React, Next.js, and Node.js",
-    images: ["/profile.jpg"],
+    images: ["/profile.webp"],
     creator: "@nadikaprabhath",
   },
   verification: {
-    google: "your-google-verification-code",
+    google: "google-site-verification=2SLGNqOoZKnSUryUpekKYjWV6kQMLgBy8kYbqFX4Xog",
   },
   alternates: {
     canonical: "https://nadikaprabhath.dev",
-  },
-    generator: 'v0.dev'
+  }
 }
 
 const jsonLd = {
@@ -85,7 +84,7 @@ const jsonLd = {
   description:
     "Professional Full Stack Developer with expertise in React, Next.js, Node.js, and modern web technologies",
   url: "https://nadikaprabhath.dev",
-  image: "https://nadikaprabhath.dev/profile.jpg",
+  image: "https://nadikaprabhath.dev/profile.webp",
   email: "nadikagamage11@gmail.com",
   telephone: "+94787358510",
   address: {
@@ -130,7 +129,7 @@ export default function RootLayout({
       <head>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <link rel="canonical" href="https://nadikaprabhath.dev" />
-        <meta name="google-site-verification" content="your-google-verification-code" />
+        <meta name="google-site-verification" content="2SLGNqOoZKnSUryUpekKYjWV6kQMLgBy8kYbqFX4Xog" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#58A6FF" />
         <link rel="icon" href="/favicon.ico" />

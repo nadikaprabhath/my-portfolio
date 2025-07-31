@@ -4,8 +4,8 @@ export default function ExperienceSection() {
   const experiences = [
     {
       title: "Senior Full Stack Developer",
-      company: "TechCorp Solutions",
-      location: "San Francisco, CA",
+      company: "WSO2",
+      location: "Bauddhaloka Mawatha, Colombo",
       period: "2022 - Present",
       description:
         "Lead development of enterprise web applications serving 100K+ users. Architected microservices infrastructure and mentored junior developers.",
@@ -18,8 +18,8 @@ export default function ExperienceSection() {
     },
     {
       title: "Full Stack Developer",
-      company: "StartupXYZ",
-      location: "Austin, TX",
+      company: "99x",
+      location: "Walukarama Rd, Colomb",
       period: "2020 - 2022",
       description:
         "Developed MVP and scaled platform from 0 to 50K users. Built responsive web applications and modern API endpoints using Next.js API routes.",
@@ -32,9 +32,9 @@ export default function ExperienceSection() {
     },
     {
       title: "Frontend Developer",
-      company: "Digital Agency Pro",
+      company: "Fiverr",
       location: "Remote",
-      period: "2019 - 2020",
+      period: "2019 - Present",
       description:
         "Created responsive websites and web applications for various clients. Collaborated with designers to implement pixel-perfect UIs.",
       achievements: [
@@ -48,12 +48,19 @@ export default function ExperienceSection() {
 
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
+      degree: "BSc (Hons) in Information Technology Specialising in Software Engineering",
       school: "Sri Lanka Institute of Information Technology (SLIIT)",
       location: "Malabe, Sri Lanka",
       period: "2019 - 2023",
       description: "Graduated from SLIIT with focus on Software Engineering and Web Development.",
     },
+    {
+      degree: "BTEC HND in Computing (Software Engineering)",
+      school: "Esoft Metro Campus",
+      location: "Colombo, Sri Lanka",
+      period: "2018 - 2019",
+      description: "Graduated from SLIIT with focus on Software Engineering and Web Development.",
+    }
   ]
 
   const certifications = [
@@ -140,9 +147,9 @@ export default function ExperienceSection() {
           {/* Education & Certifications */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold mb-6 text-[#58A6FF]">Education</h3>
+              <h3 className="text-2xl font-semibold mb-8 text-[#58A6FF]">Education</h3>
               {education.map((edu, index) => (
-                <div key={index} className="glass-effect rounded-lg p-6">
+                <div key={index} className="glass-effect rounded-lg p-6 mb-6">
                   <h4 className="text-lg font-semibold text-[#F0F6FC] mb-2">{edu.degree}</h4>
                   <p className="text-[#58A6FF] font-medium mb-2">{edu.school}</p>
                   <div className="text-sm text-[#8B949E] mb-3">

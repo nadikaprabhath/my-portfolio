@@ -17,7 +17,7 @@ export default function ProjectsSection() {
       category: "web",
       github: "https://github.com",
       live: "https://demo.com",
-      image: "/placeholder.svg?height=300&width=400&text=E-commerce",
+      image: "/place1.jpg?height=300&width=400&text=E-commerce",
     },
     {
       id: 2,
@@ -28,7 +28,7 @@ export default function ProjectsSection() {
       category: "web",
       github: "https://github.com",
       live: "https://demo.com",
-      image: "/placeholder.svg?height=300&width=400&text=Task+Manager",
+      image: "/place2.jpg?height=300&width=400&text=Task+Manager",
     },
     {
       id: 3,
@@ -38,7 +38,7 @@ export default function ProjectsSection() {
       category: "mobile",
       github: "https://github.com",
       live: "https://demo.com",
-      image: "/placeholder.svg?height=300&width=400&text=Weather+App",
+      image: "/place3.jpg?height=300&width=400&text=Weather+App",
     },
     {
       id: 4,
@@ -48,7 +48,7 @@ export default function ProjectsSection() {
       category: "api",
       github: "https://github.com",
       live: null,
-      image: "/placeholder.svg?height=300&width=400&text=API+Gateway",
+      image: "/place4.jpg?height=300&width=400&text=API+Gateway",
     },
     {
       id: 5,
@@ -58,7 +58,7 @@ export default function ProjectsSection() {
       category: "web",
       github: "https://github.com",
       live: "https://demo.com",
-      image: "/placeholder.svg?height=300&width=400&text=Dashboard",
+      image: "/place5.jpg?height=300&width=400&text=Dashboard",
     },
     {
       id: 6,
@@ -68,7 +68,7 @@ export default function ProjectsSection() {
       category: "opensource",
       github: "https://github.com",
       live: "https://demo.com",
-      image: "/placeholder.svg?height=300&width=400&text=Library",
+      image: "/place6.jpg?height=300&width=400&text=Library",
     },
   ]
 
@@ -167,7 +167,7 @@ export default function ProjectsSection() {
             variant="outline"
             className="border-[#58A6FF] text-[#58A6FF] hover:bg-[#58A6FF] hover:text-white bg-transparent"
           >
-            <Github className="mr-2" size={20} />
+            <Github className="mr-2" size={20}/>
             View More on GitHub
           </Button>
         </div>
