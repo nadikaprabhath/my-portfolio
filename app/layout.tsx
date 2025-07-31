@@ -6,6 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://nadikaprabhath.me'),
   title: "Nadika Prabhath - Full Stack Developer | Software Engineer | Web Developer",
   description:
     "Nadika Prabhath (Nadika Gamage) - Professional Full Stack Developer with 5+ years experience in React, Next.js, Node.js. Expert in modern web development, software architecture, and innovative digital solutions.",

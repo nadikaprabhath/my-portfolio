@@ -63,7 +63,7 @@ export default function HeroSection() {
             <div className="w-40 h-40 mx-auto rounded-full overflow-hidden border-4 border-[#58A6FF] shadow-2xl relative w-[180px] h-[180px]">
               <div className="absolute inset-0 bg-gradient-to-r from-[#58A6FF] to-[#A855F7] animate-pulse opacity-20" />
               <img
-                src="/profile.JPG"
+                src="/profile.webp"
                 alt="Nadika Prabhath - Full Stack Developer and Software Engineer"
                 className="w-full h-full object-cover relative z-10 group-hover:scale-110 transition-transform duration-500"
                 crossOrigin="anonymous"
