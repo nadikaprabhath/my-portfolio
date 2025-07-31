@@ -86,7 +86,7 @@ export default function HeroSection() {
               Hello, I'm
             </span>
             <span className="block bg-gradient-to-r from-[#58A6FF] via-[#A855F7] to-[#58A6FF] bg-clip-text text-transparent animate-gradient-x bg-300% animate-fade-in-up animation-delay-200">
-              Nadika Prabhath
+              Nadika Prabhath Gamage
             </span>
           </h1>
 
