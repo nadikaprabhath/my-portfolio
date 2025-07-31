@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     siteName: "Nadika Prabhath Portfolio",
     images: [
       {
-        url: "/profile.jpg",
+        url: "/profile.webp",
         width: 1200,
         height: 630,
         alt: "Nadika Prabhath - Full Stack Developer",
