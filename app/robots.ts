@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/private/",
     },
-    sitemap: "https://nadikaprabhath.dev/sitemap.xml",
+    sitemap: "https://nadikaprabhath.me/sitemap.xml",
   }
 }

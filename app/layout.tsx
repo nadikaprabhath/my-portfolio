@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://nadikaprabhath.dev",
+    url: "https://nadikaprabhath.me",
     title: "Nadika Prabhath - Full Stack Developer | Software Engineer",
     description:
       "Professional Full Stack Developer specializing in React, Next.js, and Node.js. Creating innovative digital solutions with 5+ years of experience.",
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     google: "google-site-verification=2SLGNqOoZKnSUryUpekKYjWV6kQMLgBy8kYbqFX4Xog",
   },
   alternates: {
-    canonical: "https://nadikaprabhath.dev",
+    canonical: "https://nadikaprabhath.me",
   }
 }
 
@@ -83,8 +83,8 @@ const jsonLd = {
   jobTitle: "Full Stack Developer",
   description:
     "Professional Full Stack Developer with expertise in React, Next.js, Node.js, and modern web technologies",
-  url: "https://nadikaprabhath.dev",
-  image: "https://nadikaprabhath.dev/profile.webp",
+  url: "https://nadikaprabhath.me",
+  image: "https://nadikaprabhath.me/profile.webp",
   email: "nadikagamage11@gmail.com",
   telephone: "+94787358510",
   address: {
@@ -128,7 +128,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-        <link rel="canonical" href="https://nadikaprabhath.dev" />
+        <link rel="canonical" href="https://nadikaprabhath.me" />
         <meta name="google-site-verification" content="2SLGNqOoZKnSUryUpekKYjWV6kQMLgBy8kYbqFX4Xog" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#58A6FF" />
