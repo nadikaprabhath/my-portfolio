@@ -9,7 +9,9 @@ const nextConfig = {
   images: {
     unoptimized: false,
   },
-  devIndicators: false
+  devIndicators: false,
+
+  
 }
 
 export default nextConfig
