@@ -25,7 +25,7 @@ export async function POST(request: NextRequest) {
     // Example with a hypothetical email service:
     /*
     await emailService.send({
-      to: 'o.crm44@gmail.com',
+      to: 'nadikagamage11@gmail.com',
       from: email,
       subject: `Portfolio Contact: ${subject}`,
       html: `

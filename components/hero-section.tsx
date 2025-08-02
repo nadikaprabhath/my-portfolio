@@ -21,6 +21,7 @@ export default function HeroSection() {
     const link = document.createElement("a")
     link.href = "/resume.pdf"
     link.download = "Nadika_Prabhath_Resume.pdf"
+    link.target = "_blank"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -63,7 +64,7 @@ export default function HeroSection() {
             <div className="w-40 h-40 mx-auto rounded-full overflow-hidden border-4 border-[#58A6FF] shadow-2xl relative w-[180px] h-[180px]">
               <div className="absolute inset-0 bg-gradient-to-r from-[#58A6FF] to-[#A855F7] animate-pulse opacity-20" />
               <img
-                src="/profile.webp"
+                src="/profile.jpg"
                 alt="Nadika Prabhath - Full Stack Developer and Software Engineer"
                 className="w-full h-full object-cover relative z-10 group-hover:scale-110 transition-transform duration-500"
                 crossOrigin="anonymous"
@@ -111,7 +112,7 @@ export default function HeroSection() {
 
           {/* Enhanced description with SEO keywords */}
           <p className="text-lg sm:text-xl text-[#8B949E] max-w-4xl mx-auto mb-12 leading-relaxed animate-fade-in-up animation-delay-400">
-            Professional Full Stack Developer from Matara, Sri Lanka, specializing in React, Next.js, and Node.js. I
+            Professional Full Stack Developer from Matara, Sri Lanka, specializing in React, Next.js, Vue, Nuxt.js and Node.js. I
             transform complex business challenges into elegant digital solutions using cutting-edge web technologies.
             Expert in JavaScript, TypeScript, and modern software architecture. Let's build innovative web applications
             together.

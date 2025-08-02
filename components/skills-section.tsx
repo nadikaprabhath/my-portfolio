@@ -34,8 +34,10 @@ export default function SkillsSection() {
         { name: "Next.js", level: 90, color: "#000000" },
         { name: "TypeScript", level: 88, color: "#3178C6" },
         { name: "Tailwind CSS", level: 92, color: "#06B6D4" },
-        { name: "Vue.js", level: 85, color: "#4FC08D" },
+        { name: "Vue.js", level: 93, color: "#4FC08D" },
+        { name: "Nuxt.js", level: 90, color: "#077752ff" },
         { name: "Angular", level: 80, color: "#DD0031" },
+        { name: "Handlebars.js", level: 75, color: "#fffb00ff" },
       ],
     },
     backend: {
@@ -47,7 +49,9 @@ export default function SkillsSection() {
         { name: "PostgreSQL", level: 88, color: "#336791" },
         { name: "MongoDB", level: 82, color: "#47A248" },
         { name: "GraphQL", level: 78, color: "#E10098" },
-        { name: "Redis", level: 75, color: "#DC382D" },
+        { name: "Redis", level: 75, color: "#d15047ff" },
+        { name: "Ruby", level: 85, color: "#f11c0cff" },
+        { name: "Java", level: 95, color: "#cf2550ff" },
       ],
     },
     mobile: {
@@ -219,7 +223,7 @@ export default function SkillsSection() {
               className={`text-center p-6 bg-[#21262D]/50 backdrop-blur-sm rounded-2xl border border-[#30363D] hover:border-[#58A6FF]/50 transition-all duration-300 transform hover:scale-105 ${
                 isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
               }`}
-              style={{ transitionDelay: `${index * 100 + 800}ms` }}
+              style={{ transitionDelay: `${index * 100 + 100}ms` }}
             >
               <div className="text-[#58A6FF] mb-3 flex justify-center">{stat.icon}</div>
               <div className="text-3xl font-bold text-[#F0F6FC] mb-2">{stat.value}</div>

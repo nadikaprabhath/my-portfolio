@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     siteName: "Nadika Prabhath Portfolio",
     images: [
       {
-        url: "/profile.webp",
+        url: "/profile.jpg",
         width: 1200,
         height: 630,
         alt: "Nadika Prabhath - Full Stack Developer",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Nadika Prabhath - Full Stack Developer",
     description: "Professional Full Stack Developer specializing in React, Next.js, and Node.js",
-    images: ["/profile.webp"],
+    images: ["/profile.jpg"],
     creator: "@nadikaprabhath",
   },
   verification: {
@@ -84,7 +84,7 @@ const jsonLd = {
   description:
     "Professional Full Stack Developer with expertise in React, Next.js, Node.js, and modern web technologies",
   url: "https://nadikaprabhath.me",
-  image: "https://nadikaprabhath.me/profile.webp",
+  image: "https://nadikaprabhath.me/profile.jpg",
   email: "nadikagamage11@gmail.com",
   telephone: "+94787358510",
   address: {

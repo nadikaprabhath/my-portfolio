@@ -30,7 +30,7 @@ export default function ContactSection() {
         },
         body: JSON.stringify({
           ...formData,
-          to: "o.crm44@gmail.com",
+          to: "nadikagamage11@gmail.com",
         }),
       })
 
@@ -65,7 +65,7 @@ export default function ContactSection() {
     {
       icon: <Phone size={20} />,
       label: "Phone",
-      value: "+94 (78) 735-8510",
+      value: "(+94) 787-358-510",
       href: "tel:+947358510",
     },
     {

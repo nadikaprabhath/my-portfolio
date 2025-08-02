@@ -32,17 +32,17 @@ export default function ExperienceSection() {
     },
     {
       title: "Frontend Developer",
-      company: "Fiverr",
+      company: "Freelancer",
       location: "Remote",
       period: "2019 - Present",
       description:
         "Created responsive websites and web applications for various clients. Collaborated with designers to implement pixel-perfect UIs.",
       achievements: [
-        "Delivered 20+ client projects on time and budget",
+        "Delivered 200+ client projects on time and budget",
         "Improved website performance scores by average 35%",
         "Established component library for team efficiency",
       ],
-      tech: ["Vue.js", "Sass", "WordPress", "jQuery", "Figma"],
+      tech: ["Vue.js", "Sass", "WordPress", "Ghost", "jQuery", "Figma"],
     },
   ]
 
@@ -59,7 +59,7 @@ export default function ExperienceSection() {
       school: "Esoft Metro Campus",
       location: "Colombo, Sri Lanka",
       period: "2018 - 2019",
-      description: "Graduated from SLIIT with focus on Software Engineering and Web Development.",
+      description: "Completed a Pearson BTEC Higher National Diploma (HND) in Software Engineering with focus on programming, database systems, and web development",
     }
   ]
 

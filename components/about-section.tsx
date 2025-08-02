@@ -51,7 +51,7 @@ export default function AboutSection() {
                 </p>
                 <p>
                   I specialize in full-stack web development with expertise in <strong>React</strong>,{" "}
-                  <strong>Next.js</strong>, and <strong>Node.js</strong> with modern frameworks like Fastify and Hono.
+                  <strong>Next.js</strong>, <strong>Vue</strong>, <strong>Nuxt.js</strong>, and <strong>Node.js</strong> with modern frameworks like Fastify and Hono.
                   As a software engineer, I love the entire development process - from architecting scalable systems to
                   crafting pixel-perfect user interfaces using modern JavaScript and TypeScript.
                 </p>
