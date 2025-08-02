@@ -10,7 +10,6 @@ const nextConfig = {
     unoptimized: false,
   },
   devIndicators: false,
-
   
 }
 

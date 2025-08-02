@@ -37,7 +37,7 @@ export default function SkillsSection() {
         { name: "Vue.js", level: 93, color: "#4FC08D" },
         { name: "Nuxt.js", level: 90, color: "#077752ff" },
         { name: "Angular", level: 80, color: "#DD0031" },
-        { name: "Handlebars.js", level: 75, color: "#fffb00ff" },
+        { name: "Handlebars.js", level: 7, color: "#fffb00ff" },
       ],
     },
     backend: {
